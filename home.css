@@ -10,11 +10,12 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
+    
 }
 header {
     background-color: black;
     color: White;
-    padding: 10px 20px;
+    padding: 10px;
     text-align: center;
 }
 h1 {
@@ -22,16 +23,16 @@ h1 {
 }
 nav {
     background-color: black;
-    padding: 10px 20px;
+    padding: 20px;
     text-align: center;
 }
 nav a {
     color: White;
     text-decoration: none;
-    margin: 0 10px;
+    margin: 0;
+    margin: 10px;
 }
 .titel2 {
-    background-image: url('');
     background-size: cover;
     height: 300px;
     display: flex;
@@ -49,10 +50,11 @@ nav a {
 }
 
 .kolommen {
-    display: flex;
+    
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: 20px;
+    display: flex;
 }
 
 
@@ -62,6 +64,7 @@ nav a {
     padding: 20px;
     background-color: black;
     border-radius: 5px;
+    flex: 1;
 }
 
 .kolom img {
@@ -73,5 +76,5 @@ footer {
     background-color: black;
     color: White;
     text-align: center;
-    padding: 20px 0;
+    padding: 20px;
 }

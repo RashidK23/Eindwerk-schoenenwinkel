@@ -15,7 +15,8 @@ nav {
 nav a {
     color: White;
     text-decoration: none;
-    margin: 0 10px;
+    margin: 0;
+    margin: 10px;
 }
 
 footer {
