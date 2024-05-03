@@ -24,3 +24,9 @@ footer {
     text-align: center;
     padding: 20px 0;
 }
+
+.kolom{
+
+    border: solid 2px black;
+    width: 310px;
+}

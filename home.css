@@ -51,8 +51,9 @@ nav a {
 
 .kolommen {
     
-    flex-direction: row;
-    flex-wrap: wrap;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    float: inline-start;
     margin-top: 20px;
     display: flex;
 }
