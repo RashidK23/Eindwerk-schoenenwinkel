@@ -53,7 +53,7 @@ nav a {
     
     /* flex-direction: row;
     flex-wrap: wrap; */
-    float: inline-start;
+    display: inline-block;
     margin-top: 20px;
     display: flex;
 }
