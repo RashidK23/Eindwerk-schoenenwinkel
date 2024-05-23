@@ -143,6 +143,7 @@ input{
     width: 310px;
     display: inline-block;
     
+    
 }
 
 
@@ -165,5 +166,23 @@ div.kolom1:last-of-type {
     padding-top: 50px;
 
     
+}
+
+p{
+    color: black;
+}
+
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 60px;
+    margin-left: 60px;
+}
+
+.kolom2 img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
 }
 
