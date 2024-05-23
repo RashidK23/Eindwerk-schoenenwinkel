@@ -2,7 +2,7 @@
     <table id="producten">
 
 <?php
-include 'connetion.php';
+include 'connection.php';
 
 $naam = $_POST['naam'];
 $merk = $_POST['merk'];
@@ -12,7 +12,7 @@ $omschrijving = $_POST['omschrijving'];
 $afbeelding = $_POST['afbeelding'];
 
 
-$sql = "INSERT INTO 'shop' , 'tblSchoenen' ('id', 'naam', 'merk', 'omschrijving', 'prijs', 'kleur', 'afbeelding') VALUES (NULL, '$naam', '$merk', '$omschrijving', '$prijs', '$kleur', '$omschrijving')";
+$sql = "INSERT INTO 'shop' , 'tblschoenen' ('id', 'naam', 'merk', 'omschrijving', 'prijs', 'kleur', 'afbeelding') VALUES (NULL, '$naam', '$merk', '$omschrijving', '$prijs', '$kleur', '$omschrijving')";
 
 
 if ($conn->query($sql) === TRUE) {

@@ -5,7 +5,7 @@
        <?php
 
 include 'connection.php';
-$sql = "SELECT * FROM 'tblSchoenen'";
+$sql = "SELECT * FROM 'tblschoenen'";
 $result = $conn->query($sql);
 while($row = $result->fetch_assoc()) {
 
