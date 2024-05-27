@@ -140,7 +140,7 @@ input{
 .kolom2{
 
     border: solid 2px black;
-    width: 310px;
+    width: 300px;
     display: inline-block;
     
     
@@ -190,4 +190,13 @@ button{
     background-color: black;
     color: white;
 }
+
+img{
+ /*   height: 200px;*/
+    width: 100%;
+}
+
+/* .bestel-button{
+    margin-left: 400px;
+} */
 

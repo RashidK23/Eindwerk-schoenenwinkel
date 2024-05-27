@@ -10,9 +10,10 @@ $kleur = $_POST['kleur'];
 $prijs = $_POST['prijs'];
 $omschrijving = $_POST['omschrijving'];
 $afbeelding = $_POST['afbeelding'];
+$maat = $_POST['maat'];
 
 
-$sql = "INSERT INTO 'shop' , 'tblschoenen' ('id', 'naam', 'merk', 'omschrijving', 'prijs', 'kleur', 'afbeelding') VALUES (NULL, '$naam', '$merk', '$omschrijving', '$prijs', '$kleur', '$omschrijving')";
+$sql = "INSERT INTO 'shop' , 'tblschoenen' ('id', 'naam', 'merk', 'omschrijving', 'prijs', 'kleur', 'afbeelding', 'maat') VALUES (NULL, '$naam', '$merk', '$omschrijving', '$prijs', '$kleur', '$omschrijving', '$maat')";
 
 
 if ($conn->query($sql) === TRUE) {

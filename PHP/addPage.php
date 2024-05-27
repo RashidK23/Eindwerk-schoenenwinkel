@@ -18,6 +18,7 @@ while($row = $result->fetch_assoc()) {
         <td><?php echo $row['kleur']; ?></td>
         <td><?php echo $row['prijs']; ?></td>
         <td><?php echo $row['omschrijving']; ?></td>
+        <td><?php echo $row['maat']; ?></td>
         <td><button id="del" onclick="location.href='del.php?id=<?php echo $row['id']?>'">DELETE</button></td>
 
     </tr>
@@ -66,9 +67,12 @@ $conn->close();
                     <td>Beschrijving: </td>
                     <td><textarea name="omschrijving" id="omschrijving" style="resize: none;" cols="30" rows="10" class="textarea"></textarea></td>
                 </tr>
-                 <td>Afbeelding: </td>
+                    <td>Afbeelding: </td>
                     <td><input type="text" name="afbeelding" id="afbeelding"></td>
                 </tr>
+
+                    <td>maat: </td>
+                    <td><input type="text" name="maat" id="maat"></td>
                 <tr>
                     <td></td>
                     <td><input type="submit" value="Toevoegen"></td>
