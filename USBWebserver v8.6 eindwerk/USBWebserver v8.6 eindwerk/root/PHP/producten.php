@@ -20,7 +20,7 @@
 <div class="producten">
     <?php
     include 'connection.php';
-    $sql = "SELECT * FROM 'tblschoenen'";
+    $sql = "SELECT * FROM tblschoenen";
     $result = $conn->query($sql);
     while($row = $result->fetch_assoc()) {
     ?>
