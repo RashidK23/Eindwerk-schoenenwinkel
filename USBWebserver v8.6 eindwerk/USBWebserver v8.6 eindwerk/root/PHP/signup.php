@@ -19,7 +19,7 @@ else
     if ($result->num_rows==0)
     {
 
-        $sql = "INSERT INTO users (gebruikersnaam, passwoord) VALUES ('$user', '$pass1')";
+        $sql = "INSERT INTO users (gebruikersnaam, paswoord) VALUES ('$user', '$pass1')";
 
         if ($conn->query($sql) === TRUE) {
             $melding="Account is toegevoegd";

@@ -43,7 +43,11 @@
 
             <input class="submit" type="submit" value="Inloggen">
 
-            <p>Heb je nog geen account?<a href="signup.php">Sign Up</a></p>
+            <p>Heb je al een account?<a href="Login.php">Log in</a></p>
+
+            <?php
+            if (isset($_GET["melding"])){ $melding=$_GET["melding"];}?>
+            <p id="fout"><?php if (isset($_GET["melding"])){print $melding;}?></p>
             
         </form>
     </div>
