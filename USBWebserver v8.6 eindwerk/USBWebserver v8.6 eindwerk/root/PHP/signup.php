@@ -20,8 +20,26 @@ else
     {
 
         $sql = "INSERT INTO users (gebruikersnaam, passwoord) VALUES ('$user', '$pass1')";
-        
+
+        if ($conn->query($sql) === TRUE) {
+            $melding="Account is toegevoegd";
+            session_start();
+            $_SESSION["user"]=$user;
+        }
+    else{
+        $melding= "Error: " . $sql . "<br>" . $conn->error;
+
     }
+     }
+
+     else
+     {
+        $melding= "De gebruikersnaam bestaat al";
+
+     }
+
+     header("Location: signuoform.php?melding=$melding");
+     $conn->close();
 }
 
 
