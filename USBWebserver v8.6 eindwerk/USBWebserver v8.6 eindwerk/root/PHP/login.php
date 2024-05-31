@@ -7,51 +7,68 @@ if (isset($_SESSION["user"]))
 }
  ?>
 
-<!doctype html>
-<html lang="nl">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Demo Login</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../CSS/Eindwerk.css">
 </head>
 <body>
-    <?php
-    include_once("header.php");
-    ?> 
-    <div class="container">
-        <div class="row">
-            <h1>Login</h1>
-        </div>
-        <div class="row">
-       
-            <section class="row justify-content-center">
-            <section class="col-12 col-sm-8 col-md-6">
-                <form class="form-container" action="checklogin.php" method="post" autocomplete="off" >
-                 
-                <div class="form-group">
-                        <label for="InputName">Gebruikersnaam</label>
-                        <span class="glyphicon glyphicon-user"></span>
-                        <input type="text" name="username" id="username" required>                                    
-                    </div>
-                    <div class="form-group">
-                        <label for="InputPassword1">Password</label>
-                        <span class="glyphicon glyphicon-lock"></span>
-                        <input type="text" name="password" id="password" required>                                    
-                    </div>
-                    <span class="glyphicon glyphicon-user"></span><input class="btn btn-primary"  type="submit" value="SUBMIT" alt='person'>
-                    <div class="form-footer">
-                        <p>Heb je nog geen account?<a href="signupForm.php">Sign Up</a></p>
-                        <?php 
-                        if (isset($_GET["melding"])){ $melding=$_GET["melding"];}?>
-                        <p id="fout"><?php if (isset($_GET["melding"])){print $melding;}?></p>
-                    </div>
-                    
-                </form>
-        </div>
-    </div>
+    <header>
+        <h1>MUHAJEER</h1>
+    </header>
+    <nav>
+        <a href="Home.php">Home</a>
+        <a href="Informatie.php">Informatie</a>
+        <a href="Schoenen.php">Schoenen</a>
+        <a href="Login.php">Login</a>
+    </nav>
+    </header>
 
+    
+
+    </style>
+
+</head>
+<body>
+    <div class="container3">
+        <div class="logo">
+            <img src="../foto's/m logo.jpg" alt="Logo">
+        </div>
+
+        <form action="checklogin.php" autocomplete="off">
+
+            <label for="username">Gebruikersnaam:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Wachtwoord:</label>
+            <input type="password" id="password" name="password" required>
+
+
+            <input class="submit" type="submit" value="Inloggen">
+
+            <p>Heb je nog geen account?<a href="signup.php">Sign Up</a></p>
+
+            <?php 
+                if (isset($_GET["melding"])){ $melding=$_GET["melding"];}?>
+                <p id="fout"><?php if (isset($_GET["melding"])){print $melding;}?></p>
+            
+        </form>
+    </div>
 </body>
 </html>
+
+
+<footer>
+    <h2>Muhajeer</h2>
+    E-mail: Muhajeer@gmail.com
+    <br><br>
+    Telefoon: +3256778543
+</footer>
+
+</body>
+
+
+
