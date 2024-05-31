@@ -1,0 +1,10 @@
+::1 - - [31/May/2024:22:03:06 +0200] "GET / HTTP/1.1" 200 359
+::1 - - [31/May/2024:22:03:08 +0200] "GET /PHP/ HTTP/1.1" 200 978
+::1 - - [31/May/2024:22:03:13 +0200] "GET /PHP/Login.php HTTP/1.1" 200 1411
+::1 - - [31/May/2024:22:03:13 +0200] "GET /CSS/Eindwerk.css HTTP/1.1" 304 -
+::1 - - [31/May/2024:22:03:18 +0200] "GET /PHP/signup.php HTTP/1.1" 302 968
+::1 - - [31/May/2024:22:03:19 +0200] "GET /PHP/signuoform.php?melding=Error:%20INSERT%20INTO%20users%20(gebruikersnaam,%20passwoord)%20VALUES%20(%27%27,%20%27%27)%3Cbr%3EUnknown%20column%20%27passwoord%27%20in%20%27field%20list%27 HTTP/1.1" 404 216
+::1 - - [31/May/2024:22:03:42 +0200] "GET /PHP/signuoform.php?melding=Error:%20INSERT%20INTO%20users%20(gebruikersnaam,%20passwoord)%20VALUES%20(%27%27,%20%27%27)%3Cbr%3EUnknown%20column%20%27passwoord%27%20in%20%27field%20list%27 HTTP/1.1" 404 216
+::1 - - [31/May/2024:22:03:43 +0200] "GET /PHP/signuoform.php?melding=Error:%20INSERT%20INTO%20users%20(gebruikersnaam,%20passwoord)%20VALUES%20(%27%27,%20%27%27)%3Cbr%3EUnknown%20column%20%27passwoord%27%20in%20%27field%20list%27 HTTP/1.1" 404 216
+::1 - - [31/May/2024:22:03:43 +0200] "GET /PHP/signuoform.php?melding=Error:%20INSERT%20INTO%20users%20(gebruikersnaam,%20passwoord)%20VALUES%20(%27%27,%20%27%27)%3Cbr%3EUnknown%20column%20%27passwoord%27%20in%20%27field%20list%27 HTTP/1.1" 404 216
+::1 - - [31/May/2024:22:03:43 +0200] "GET /PHP/signuoform.php?melding=Error:%20INSERT%20INTO%20users%20(gebruikersnaam,%20passwoord)%20VALUES%20(%27%27,%20%27%27)%3Cbr%3EUnknown%20column%20%27passwoord%27%20in%20%27field%20list%27 HTTP/1.1" 404 216

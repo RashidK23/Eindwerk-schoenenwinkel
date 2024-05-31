@@ -38,7 +38,7 @@ else
 
      }
 
-     header("Location: signuoform.php?melding=$melding");
+     header("Location: signupform.php?melding=$melding");
      $conn->close();
 }
 
