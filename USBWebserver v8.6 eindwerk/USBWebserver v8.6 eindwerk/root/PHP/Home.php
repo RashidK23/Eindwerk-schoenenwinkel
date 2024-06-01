@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Muhajeer</title>
     <link rel="stylesheet" href="../CSS/Eindwerk.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     
 
 </head>
@@ -22,7 +23,9 @@
         <a href="Informatie.php">Informatie</a>
         <a href="Schoenen.php">Schoenen</a>
         <a href="Login.php">Login</a>
+        <a href="winkelmandje.php"> <i class="fas fa-shopping-cart"></i></a>
     </nav>
+    
 
     <div class="titel2">
         <h2>Ontdek onze nieuwste collectie schoenen!</h2>

@@ -1,3 +1,14 @@
+<?php
+$user="Login";
+session_start();
+if (isset($_SESSION["user"]))
+{
+   $user=$_SESSION["user"];
+}
+ ?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -24,6 +35,12 @@
 
 </head>
 <body>
+
+    <?php
+     include_once("header.php");
+
+    ?>
+
     <div class="container3">
         <div class="logo">
             <img src="../foto's/m logo.jpg" alt="Logo">
@@ -35,10 +52,10 @@
             <input type="text" id="username" name="username" required>
 
             <label for="password">Wachtwoord:</label>
-            <input type="password" id="password" name="password" required>
+            <input type="password" id="password1" name="password1" required>
 
             <label for="password">Wachtwoord:</label>
-            <input type="password" id="password" name="password" required>
+            <input type="password" id="password2" name="password2" required>
 
 
             <input class="submit" type="submit" value="Inloggen">

@@ -1,5 +1,5 @@
 <?php
-    include 'connection.php';
+    include 'Connection.php';
     if(isset($_GET['id']))
     $id = $_GET['id'];
     print "id=" . $id;
@@ -8,7 +8,7 @@
     if($conn->query($sql) === TRUE)
     {
         echo "Record deleted succesfully";
-        header('Location: addpage.php?melding=record verwijderd');
+        header('Location: addPage.php?melding=record verwijderd');
 
     }
 

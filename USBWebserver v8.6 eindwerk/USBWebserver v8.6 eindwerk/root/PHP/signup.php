@@ -1,6 +1,6 @@
 <?php
 
-include_once("connection.php");
+include_once("Connection.php");
 $result=0;
 $user = $_POST['username'];
 $pass1 = $_POST['password1'];
@@ -14,12 +14,12 @@ if ($pass1!=$pass2)
 
 else
 {
-    $result = $conn->query("SELECT * FROM users WHERE gebruikersnaam='$user'");
+    $result = $conn->query("SELECT * FROM user WHERE gebruikersnaam='$user'");
 
     if ($result->num_rows==0)
     {
 
-        $sql = "INSERT INTO users (gebruikersnaam, paswoord) VALUES ('$user', '$pass1')";
+        $sql = "INSERT INTO user (gebruikersnaam, paswoord) VALUES ('$user', '$pass1')";
 
         if ($conn->query($sql) === TRUE) {
             $melding="Account is toegevoegd";
@@ -38,7 +38,7 @@ else
 
      }
 
-     header("Location: signupform.php?melding=$melding");
+     header("Location: signupForm.php?melding=$melding");
      $conn->close();
 }
 
