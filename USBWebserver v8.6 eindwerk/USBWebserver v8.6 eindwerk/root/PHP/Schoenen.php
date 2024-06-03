@@ -37,13 +37,19 @@ $result = $conn->query($sql);
     <a href="winkelmandje.php"> <i class="fas fa-shopping-cart"></i></a>
 </nav>
 
+
+
+<br>
+
 <div class="container2">
 
 
     <div class="kolom2">
-
+        <br><br><br>
         <img src="../foto's/schoenA.jpg" alt="Schoen 1">
-        <h3>Nike schoenen</h3>
+        <br><br><br>
+        <br>
+        <h2>Nike</h2>
         <p>€99,99</p>
         <a href="winkelmandje.php">Toevoegen in de winkelmand</a>
         
@@ -53,7 +59,7 @@ $result = $conn->query($sql);
     <div class="kolom2">
 
         <img src="../foto's/schoenD.jpg" alt="Schoen 2">
-        <h3>Nike schoenen</h3>
+        <h2>Nike</h2>
         <p>€119,99</p>
         <a href="winkelmandje.php">Toevoegen in de winkelmand</a>
 
@@ -64,7 +70,7 @@ $result = $conn->query($sql);
     <div class="kolom2">
 
         <img src="../foto's/schoenE.jpg" alt="Schoen 3">
-        Nike schoenen
+        <h2>Reebok </h2>
         <p>€49,99</p>
         <a href="winkelmandje.php">Toevoegen in de winkelmand</a>
     </div>
@@ -73,7 +79,7 @@ $result = $conn->query($sql);
     <div class="kolom2">
 
         <img src="../foto's/schoenB.jpg" alt="Schoen 3">
-        Nike schoenen
+        <h2>Under armour</h2>
         <p>€169,99</p>
         <a href="winkelmandje.php">Toevoegen in de winkelmand</a>
     </div>
@@ -82,7 +88,8 @@ $result = $conn->query($sql);
     <div class="kolom2">
 
         <img src="../foto's/schoenC2.jpg" alt="Schoen 3">
-        Nike schoenen
+        <br><br><br>
+        <h2>Kaytan</h2>
         <p>€79,99</p>
         <a href="winkelmandje.php">Toevoegen in de winkelmand</a>
     </div>
@@ -90,7 +97,7 @@ $result = $conn->query($sql);
     <div class="kolom2">
 
         <img src="../foto's/schoenF.jpg" alt="Schoen 1">
-        <h3>Nike schoenen</h3>
+        <h2>Nike</h2>
         <p>€49,99</p>
         <a href="winkelmandje.php">Toevoegen in de winkelmand</a>
     </div>
@@ -99,7 +106,9 @@ $result = $conn->query($sql);
     <div class="kolom2">
 
         <img src="../foto's/schoenG.jpg" alt="Schoen 1">
-        <h3>Nike schoenen</h3>
+        <br><br>
+        <br><br><br>
+        <h2>Skechers</h2>
         <p>€129,99</p>
         <a href="winkelmandje.php">Toevoegen in de winkelmand</a>        
 
@@ -110,8 +119,10 @@ $result = $conn->query($sql);
 
     <div class="kolom2">
 
-        <img src="../foto's/schoenA.jpg" alt="Schoen 1" height="auto" width="300px">
-        <h3>Nike schoenen</h3>
+        <img src="../foto's/schoenH.jpg" alt="Schoen 1" height="auto" width="300px">
+        <br><br>
+        <br><br><br>
+        <h2>Under armour</h2>
         <p>€129,99</p>
         <a href="winkelmandje.php">Toevoegen in de winkelmand</a>
     </div>
@@ -120,14 +131,16 @@ $result = $conn->query($sql);
 
     <div class="kolom2">
 
-        <img src="../foto's/schoenA.jpg" alt="Schoen 1" height="auto" width="300px">
-        <h3>Nike schoenen</h3>
+        <img src="../foto's/schoenI.jpg" alt="Schoen 1" height="auto" width="300px">
+        <h2>Adidas</h2>
         <p>€149,99</p>
         <a href="winkelmandje.php">Toevoegen in de winkelmand</a>
     </div>
 
     
 </div>
+
+<br><br>
 
 <footer>
     <h1>Muhajeer</h1>
