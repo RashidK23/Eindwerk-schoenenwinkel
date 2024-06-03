@@ -10,6 +10,9 @@ if (isset($_SESSION["user"]))
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+    <!--  hier staan linken naar de icons die in de footer staan en voor de winkelmand -->
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>

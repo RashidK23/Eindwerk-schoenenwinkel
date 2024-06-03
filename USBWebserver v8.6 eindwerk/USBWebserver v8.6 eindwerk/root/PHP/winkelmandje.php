@@ -3,16 +3,15 @@
 if($user!="Login")
 {
     include 'Connection.php';
-    if {isset($_GET["productID"])}
+    if (isset($_GET["productID"]))
     {
         $product=$_GET['productID'];
         $aantal=1;
         print $klantID;
-        $sql = "INSERT INTO 'tblwinkelmand' ('ID, 'klantID', 'productID', 'aantal') VALUES (NULL, '$klantID', '$product', '$aantal')";
+        $sql = "INSERT INTO tblwinkelmand ('ID, 'klantID', 'productID', 'aantal') VALUES (NULL, '$klantID', '$product', '$aantal')";
         if ($conn->query($sql) === TRUE) {
             $melding = "Product is toegevoegd!";
             header("location: winkelmandje.php?melding=$melding");
-
         }
 
         else {
@@ -32,7 +31,7 @@ if($user!="Login")
 
 if($user!="Login")
 {
-    $sql = "SELECT * FROM 'tblwinkelmand' WHERE klantID='$klantID'";
+    $sql = "SELECT * FROM tblwinkelmand WHERE klantID='$klantID'";
     $totaal=0;
     $result = $conn->query($sql);
     while($row = $result->fetch_assoc()) {

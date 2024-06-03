@@ -13,7 +13,7 @@ if($result->num_rows) {
     print "Welkom";
     session_start();
     $_SESSION["user"]=$user;
-    header("Location: Login.php?melding=Je bent aangemeld");
+    header("Location: Home.php?melding=Je bent aangemeld");
 
 }
 

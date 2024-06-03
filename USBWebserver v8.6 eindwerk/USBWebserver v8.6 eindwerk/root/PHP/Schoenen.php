@@ -12,6 +12,9 @@ $result = $conn->query($sql);
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
+<!--  hier staan linken naar de icons die in de footer staan en voor de winkelmand -->
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Schoenen</title>
@@ -29,6 +32,8 @@ $result = $conn->query($sql);
     <h1>MUHAJEER</h1>
 </header>
 
+<!--Navigatiebar-->
+
 <nav>
     <a href="Home.php">Home</a>
     <a href="Informatie.php">Informatie</a>
@@ -42,6 +47,35 @@ $result = $conn->query($sql);
 <br>
 
 <div class="container2">
+
+<div class="producten">
+
+    <?php
+
+    include 'Connection.php';
+    $sql = "SELECT * FROM 'tblschoenen'";
+    $result = $conn->query($sql);
+    while($row = $result->fetch_assoc()) {
+    ?>
+    
+
+    <div class="schoenen">
+    <h4><?php echo $row['naam']; ?></h4>
+    <a href="producten.php?productID=<?php echo $row['id']?>"><img id="imgSchoenen" alt="schoenen" src="afbeeldingen/<?php echo $row['afbeelding']; ?>"></a>
+    <p><b>Omschrijving: </b><?php echo $row['omschrijving']; ?></p>
+    <p><b>Kleur: </b><?php echo $row['kleur']; ?></p><br>
+    <p><b>Maat: </b><?php echo $row['maat']; ?></p><br>
+    <p class="prijs"><b>Prijs: </b>£ <?php echo $row['prijs']; ?></p>
+    <a href="winkelmandje.php?productID=<?php echo $row['id']?>">Toevoegen aan winkelmandje</a>
+
+    </div>
+    <?php };
+    $conn->close();?>
+
+    </div>
+
+    
+
 
 
     <div class="kolom2">

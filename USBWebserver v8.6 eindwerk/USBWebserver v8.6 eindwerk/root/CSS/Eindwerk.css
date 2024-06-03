@@ -159,12 +159,24 @@ input{
     
 }
 
-div.kolom1:last-of-type{
+.kolomm{
     
-    width: 50px;
+    width: 200px;
+    margin: 10px;
+    margin-top: 20px;
+    padding: 20px;
     background-color: black;
-    margin: auto;
-    
+    border-radius: 5px;
+    flex: 1;
+    display: inline-block;
+}
+
+
+
+.kolomm img{
+    padding-top: 10px;
+    padding-bottom: 50px;
+    height: 250px;
 }
 
 p{
@@ -201,6 +213,7 @@ img{
 h2{
     color: black;
 }
+
 
 
 

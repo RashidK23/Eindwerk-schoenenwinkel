@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Muhajeer</title>
+
+    <!--  hier staan linken naar de icons die in de footer staan en voor de winkelmand -->
+
+
     <link rel="stylesheet" href="../CSS/Eindwerk.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -16,9 +20,8 @@
         <h1>MUHAJEER</h1>
     </header>
 
-    <!-- <div class="logo">
-        <img src="../foto's/m logo.jpg" alt="Logo" width="100px">
-    </div> -->
+
+    <!--  Navigatiebar    -->
     
     <nav>
         <a href="Home.php">Home</a>
@@ -67,11 +70,10 @@
 
             </div>
 
-            <div class="kolom1">
+            <div class="kolomm">
 
                 <img src="../foto's/schoenD.jpg" alt="Schoen 4">
                 <h3>Nike</h3>
-
                 €129,99
     
             </div>
