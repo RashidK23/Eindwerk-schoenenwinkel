@@ -138,7 +138,7 @@ input{
 }
 
 .kolom2{
-
+    text-align: center;
     border: solid 2px black;
     width: 300px;
     display: inline-block;
@@ -181,9 +181,14 @@ p{
 }
 
 .kolom2 img{
-    width: 100%;
+    width: 70%;
     height: auto;
     border-radius: 10px;
+    
+}
+
+.kolom2 .bestel-button{
+    margin-top: auto;
 }
 
 button{

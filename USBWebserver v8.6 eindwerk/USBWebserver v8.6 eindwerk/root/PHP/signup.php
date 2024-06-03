@@ -9,7 +9,7 @@ $pass2 = $_POST['password2'];
 if ($pass1!=$pass2)
 {
     $melding= "Allebei de wachtwoorden zijn niet dezelfde";
-    header("Location: signupForm.php?melding=$melding");
+    header("location: signupForm.php?melding=$melding");
 }
 
 else
@@ -38,7 +38,7 @@ else
 
      }
 
-     header("Location: signupForm.php?melding=$melding");
+     header("location: signupForm.php?melding=$melding");
      $conn->close();
 }
 

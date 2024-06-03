@@ -6,8 +6,10 @@
     <title>Muhajeer</title>
     <link rel="stylesheet" href="../CSS/Eindwerk.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-    
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 </head>
 <body>
     <header>
@@ -74,13 +76,24 @@
     </div>
 
     <footer>
-        <h2>Muhajeer</h2>
+        <h1>Muhajeer</h1>
         E-mail: Muhajeer@gmail.com
         <br><br>
         Telefoon: +3256778543
-     
+        <br><br>
+
+        
+        <a href="https://web.whatsapp.com/#"><i class="fa fa-whatsapp" style="font-size:36px"></i>
+        <a href="https://www.facebook.com/"><i class="fa fa-facebook-official" style="font-size:36px"></i>
+        
+
+        
+        <a href="https://www.instagram.com/accounts/login/"><i class="fa fa-instagram" style="font-size:36px"></i>
+        <a href="https://www.messenger.com/?locale=nl_NL"><i class='fab fa-facebook-messenger' style='font-size:36px'></i>
+        
+
     </footer>
-    <img class="icon" src="foto's/Test.png" alt="">
+    
 </body>
 </html>
 

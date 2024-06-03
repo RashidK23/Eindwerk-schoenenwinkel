@@ -1,6 +1,7 @@
 <?php
 
 include_once("Connection.php");
+session_start();
 
 $result=0;
 $user = htmlspecialchars($_POST['username']);

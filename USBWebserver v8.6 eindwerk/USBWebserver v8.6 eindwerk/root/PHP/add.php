@@ -13,7 +13,7 @@ $afbeelding = $_POST['afbeelding'];
 $maat = $_POST['maat'];
 
 
-$sql = "INSERT INTO 'tblschoenen' ('id', 'naam', 'merk', 'omschrijving', 'prijs', 'kleur', 'afbeelding', 'maat') VALUES (NULL, '$naam', '$merk', '$omschrijving', '$prijs', '$kleur', '$omschrijving', '$maat')";
+$sql = "INSERT INTO 'tblschoenen' ('id', 'naam', 'merk', 'omschrijving', 'prijs', 'kleur', 'omschrijving', 'maat', 'afbeelding', ) VALUES (NULL, '$naam', '$merk', '$omschrijving', '$prijs', '$kleur', '$omschrijving', '$maat', '$afbeelding')";
 
 
 if ($conn->query($sql) === TRUE) {

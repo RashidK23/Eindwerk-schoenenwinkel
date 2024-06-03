@@ -19,7 +19,7 @@ while($row = $result->fetch_assoc()) {
         <td><?php echo $row['prijs']; ?></td>
         <td><?php echo $row['omschrijving']; ?></td>
         <td><?php echo $row['maat']; ?></td>
-        <td><button id="del" onclick="location.href='del.php?id=<?php echo $row['id']?>'">DELETE</button></td>
+        <td><button id="del" onclick="Location.href='del.php?id=<?php echo $row['id']?>'">DELETE</button></td>
 
     </tr>
 
