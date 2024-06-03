@@ -42,32 +42,37 @@
             <div class="kolom1">
 
                 <img src="../foto's/schoenA.jpg" alt="Schoen 1" height="auto" width="auto">
-                <h3>Nike schoenen</h3>px
-                <p>€99,99</p>
+                <h3>Nike</h3>
+                €99,99
 
             </div>
 
             <div class="kolom1">
 
                 <img src="../foto's/schoenB.jpg" alt="Schoen 2">
-                <h3>Sneaker schoenen</h3>
-                <p>€79,99</p>
+                <h3>Under armour</h3>
+                <br>
+                €79,99
 
             </div>
 
             <div class="kolom1">
 
-                <img src="../foto's/schoenC.jpg" alt="Schoen 3">
-                <h3>Sneakers schoenen</h3>
-                <p>€129,99</p>
+                <img src="../foto's/schoenF.jpg" alt="Schoen 3">
+                <br><br>
+                <h3>Nike</h3>
+                <br><br>
+                
+                €129,99
 
             </div>
 
             <div class="kolom1">
 
-                <img src="../foto's/schoenC.jpg" alt="Schoen 4">
-                <h3>Sneakers schoenen</h3>
-                <p>€129,99</p>
+                <img src="../foto's/schoenD.jpg" alt="Schoen 4">
+                <h3>Nike</h3>
+
+                €129,99
     
             </div>
 

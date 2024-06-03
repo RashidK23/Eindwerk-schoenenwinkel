@@ -66,6 +66,7 @@ nav a {
     border-radius: 5px;
     flex: 1;
     display: inline-block;
+    
 }
 
 .kolom1 img {
@@ -158,13 +159,11 @@ input{
     
 }
 
-div.kolom1:last-of-type {
+div.kolom1:last-of-type{
     
-    width: auto;
-    height: 345px;
+    width: 50px;
     background-color: black;
-    padding-top: 50px;
-
+    margin: auto;
     
 }
 
@@ -187,9 +186,6 @@ p{
     
 }
 
-.kolom2 .bestel-button{
-    margin-top: auto;
-}
 
 button{
     background-color: black;
