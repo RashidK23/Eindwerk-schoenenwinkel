@@ -141,10 +141,22 @@ input{
 .kolom2{
     text-align: center;
     border: solid 2px black;
-    width: 300px;
-    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    width: 30%x;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+
+}
+
+
+
+.producten{
     
-    
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-right: 400px;
+    margin-left: 400px;
 }
 
 
@@ -183,20 +195,6 @@ p{
     color: black;
 }
 
-.container2{
-    display: flex;
-    flex-wrap: wrap;
-    padding: 20px;
-    gap: 60px;
-    margin-left: 60px;
-}
-
-.kolom2 img{
-    width: 70%;
-    height: auto;
-    border-radius: 10px;
-    
-}
 
 
 button{
@@ -214,6 +212,12 @@ h2{
     color: black;
 }
 
+
+#imgschoenen
+{
+    width: 100px;
+    height: auto;
+}
 
 
 

@@ -45,26 +45,32 @@ $result = $conn->query($sql);
 
 
 <br>
+<h1>producten</h1>
 
-<div class="container2">
 
 <div class="producten">
 
     <?php
 
     include 'Connection.php';
-    $sql = "SELECT * FROM 'tblschoenen'";
+    $sql = "SELECT * FROM tblschoenen";
+    print "records".$sql;
     $result = $conn->query($sql);
     while($row = $result->fetch_assoc()) {
     ?>
     
 
-    <div class="schoenen">
+    
+    <div class="kolom2">
+
     <h4><?php echo $row['naam']; ?></h4>
-    <a href="producten.php?productID=<?php echo $row['id']?>"><img id="imgSchoenen" alt="schoenen" src="afbeeldingen/<?php echo $row['afbeelding']; ?>"></a>
+    <!-- <a href="producten.php?productID=<?php echo $row['id']?>"><img id="imgSchoenen" alt="schoenen" src="afbeeldingen/<?php echo $row['afbeelding']; ?>"></a> -->
+    <img id="imgSchoenen" style="width:200px" alt="schoenen" src="../afbeeldingen/<?php echo $row['afbeelding']; ?>"></a>
+
     <p><b>Omschrijving: </b><?php echo $row['omschrijving']; ?></p>
     <p><b>Kleur: </b><?php echo $row['kleur']; ?></p><br>
-    <p><b>Maat: </b><?php echo $row['maat']; ?></p><br>
+    <p><b>merk: </b><?php echo $row['merk']; ?></p><br>
+
     <p class="prijs"><b>Prijs: </b>£ <?php echo $row['prijs']; ?></p>
     <a href="winkelmandje.php?productID=<?php echo $row['id']?>">Toevoegen aan winkelmandje</a>
 
@@ -73,106 +79,6 @@ $result = $conn->query($sql);
     $conn->close();?>
 
     </div>
-
-    
-
-
-
-    <div class="kolom2">
-        <br><br><br>
-        <img src="../foto's/schoenA.jpg" alt="Schoen 1">
-        <br><br><br>
-        <br>
-        <h2>Nike</h2>
-        <p>€99,99</p>
-        <a href="winkelmandje.php">Toevoegen in de winkelmand</a>
-        
-
-    </div>
-
-    <div class="kolom2">
-
-        <img src="../foto's/schoenD.jpg" alt="Schoen 2">
-        <h2>Nike</h2>
-        <p>€119,99</p>
-        <a href="winkelmandje.php">Toevoegen in de winkelmand</a>
-
-
-    </div>
-
-
-    <div class="kolom2">
-
-        <img src="../foto's/schoenE.jpg" alt="Schoen 3">
-        <h2>Reebok </h2>
-        <p>€49,99</p>
-        <a href="winkelmandje.php">Toevoegen in de winkelmand</a>
-    </div>
-
-
-    <div class="kolom2">
-
-        <img src="../foto's/schoenB.jpg" alt="Schoen 3">
-        <h2>Under armour</h2>
-        <p>€169,99</p>
-        <a href="winkelmandje.php">Toevoegen in de winkelmand</a>
-    </div>
-
-
-    <div class="kolom2">
-
-        <img src="../foto's/schoenC2.jpg" alt="Schoen 3">
-        <br><br><br>
-        <h2>Kaytan</h2>
-        <p>€79,99</p>
-        <a href="winkelmandje.php">Toevoegen in de winkelmand</a>
-    </div>
-
-    <div class="kolom2">
-
-        <img src="../foto's/schoenF.jpg" alt="Schoen 1">
-        <h2>Nike</h2>
-        <p>€49,99</p>
-        <a href="winkelmandje.php">Toevoegen in de winkelmand</a>
-    </div>
-
-
-    <div class="kolom2">
-
-        <img src="../foto's/schoenG.jpg" alt="Schoen 1">
-        <br><br>
-        <br><br><br>
-        <h2>Skechers</h2>
-        <p>€129,99</p>
-        <a href="winkelmandje.php">Toevoegen in de winkelmand</a>        
-
-    </div>
-
-
-
-
-    <div class="kolom2">
-
-        <img src="../foto's/schoenH.jpg" alt="Schoen 1" height="auto" width="300px">
-        <br><br>
-        <br><br><br>
-        <h2>Under armour</h2>
-        <p>€129,99</p>
-        <a href="winkelmandje.php">Toevoegen in de winkelmand</a>
-    </div>
-
-
-
-    <div class="kolom2">
-
-        <img src="../foto's/schoenI.jpg" alt="Schoen 1" height="auto" width="300px">
-        <h2>Adidas</h2>
-        <p>€149,99</p>
-        <a href="winkelmandje.php">Toevoegen in de winkelmand</a>
-    </div>
-
-    
-</div>
 
 <br><br>
 
@@ -195,8 +101,6 @@ $result = $conn->query($sql);
     
 </footer>
 
-<?php 
-$conn->close();?>
 
 </body>
 </html>

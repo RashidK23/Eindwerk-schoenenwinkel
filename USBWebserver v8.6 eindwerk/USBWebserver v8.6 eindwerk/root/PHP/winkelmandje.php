@@ -8,10 +8,10 @@ if($user!="Login")
         $product=$_GET['productID'];
         $aantal=1;
         print $klantID;
-        $sql = "INSERT INTO tblwinkelmand ('ID, 'klantID', 'productID', 'aantal') VALUES (NULL, '$klantID', '$product', '$aantal')";
+        $sql = "INSERT INTO tblwinkelmand ('ID', 'klantID', 'productID', 'aantal') VALUES (NULL, '$klantID', '$product', '$aantal')";
         if ($conn->query($sql) === TRUE) {
             $melding = "Product is toegevoegd!";
-            header("location: winkelmandje.php?melding=$melding");
+            header("Location: winkelmandje.php?melding=$melding");
         }
 
         else {
@@ -19,6 +19,7 @@ if($user!="Login")
 
         }
     }
+
 }
 
 
@@ -37,11 +38,11 @@ if($user!="Login")
     while($row = $result->fetch_assoc()) {
         $product=$row['productID'];
         echo "Product: ".$row['productID'];
-        $sql2 = "SELECT * FROM 'tblschoenen' WHERE id='$product'";
+        $sql2 = "SELECT * FROM tblschoenen WHERE id='$product'";
         $result2 = $conn->query($sql2);
         while($row2 = $result2->fetch_assoc()) {?>
         <?php echo $row2['naam']; ?>
-        <img class= "schoenen" alt="schoenen" src="afbeeldingen/<?php echo $row2['afbeelding']; ?>">
+        <img id= "imgSchoenen" alt="schoenen" src="../afbeeldingen/<?php echo $row2['afbeelding']; ?>">
         <b>Omschrijving: </b><?php echo $row2['omschrijving']; ?>
         <b>Kleur: </b>£ <?php echo $row2['prijs'];
         $totaal+=$row2['prijs'];
@@ -56,7 +57,7 @@ if($user!="Login")
 
     <h4>Totale prijs: <?php print $totaal;?> euro</h4>
     <?php if ($totaal>0){?>
-        <button onclick="location.href='bestelling.php'">Koop</button>
+        <button onclick="Location.href='bestelling.php'">Koop</button>
         <?php
     }
 }
