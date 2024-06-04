@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 </head>
-<body>
+<body class="informatie">
     <header>
         <h1>MUHAJEER</h1>
     </header>
@@ -24,21 +24,21 @@
     </nav>
 
 
-    <li><a href="#over-ons">Over ons</a></li>
+   
 
-    <section id="over-ons">
+    <section>
 
-        <h2>Over ons</h2>
+        <h2 class="titelsInfo">Over ons</h2>
         <p>Geschiedenis van de winkel, deze schoenenwinkel genaamd Muhajeer is opgericht door Rashid Khalidov om zo verschillende soorten schoenen aan te bieden voor een betaalbare prijs.</p>
-        <p>Hier zijn een paar redenen waarom we gekozen hebben om het op te richten, zoals de vraag naar schoenen zijn groot omdat het een basisbehoefte is van elk persoon omdat het elke dag en voor verschillende activiteiten als sporten, wandelen en nog meer, ook is het winstgevend omdat de vraag ernaar veel is.</p>
+        <p>Hier zijn een paar redenen waarom we gekozen hebben om het op te richten, zoals de vraag naar schoenen zijn groot omdat het een basisbehoefte is van elk persoon omdat het elke dag en voor verschillende activiteiten als sporten, wandelen en nog meer nodig is, ook is het winstgevend omdat de vraag ernaar groot is.</p>
 
 
     </section>
 
-    <section id="#productieinformatie">Productieinformatie</section>>
+    <section>
 
-        <h2>Productieinformatie</h2>
-        <h2>Soorten Schoenen</h2>
+        <h2 class="titelsInfo">Productieinformatie</h2>
+        <h3 class="subtitelinfo">Soorten Schoenen</h3>
             <h3>Casual Schoenen</h3>
             <ul>
                 <li><p><b>Sneakers:</b> Comfortabele, sportieve schoenen die populair zijn voor dagelijks gebruik.</li></p>
@@ -74,7 +74,7 @@
         </div>
 
         <div class="section">
-            <h2>Materialen</h2>
+            <h2 class="titelsInfo">Materialen</h2>
             <p>Schoenen kunnen worden gemaakt van een verscheidenheid aan materialen, elk met hun eigen voordelen en toepassingen:</p>
             <ul>
                 <li><p><b>Leer:</b> Duurzaam en ademend, vaak gebruikt voor formele en werkschoenen.</li></p>
@@ -86,7 +86,7 @@
         </div>
 
         <div class="section">
-            <h2>Trends in de Schoenenindustrie</h2>
+            <h2 class="titelsInfo">Trends in de Schoenenindustrie</h2>
             <ul>
                 <li><p><b>Duurzaamheid:</b> Er is een groeiende trend naar duurzame en milieuvriendelijke schoenen. Dit omvat het gebruik van gerecyclede materialen, biologisch afbreekbare stoffen en ethische productiepraktijken.</li></p>
                 <li><p><b>Technologische Innovaties:</b> Moderne schoenen worden steeds geavanceerder met technologieën zoals 3D-printen, slimme zolen die de voetstappen volgen en materialen die zich aanpassen aan de voet.</li></p>
@@ -96,7 +96,7 @@
         </div>
 
         <div class="section">
-            <h2>Onderhoud van Schoenen</h2>
+            <h2 class="titelsInfo">Onderhoud van Schoenen</h2>
             <ul>
                 <li><p><b>Reinigen:</b> Regelmatig schoonmaken helpt de levensduur van schoenen te verlengen. Gebruik geschikte reinigingsmiddelen voor het materiaal van de schoen.</li></p>
                 <li><p><b>Opslag:</b> Bewaar schoenen op een droge, koele plaats en gebruik schoenspanners om de vorm te behouden.</li></p>

@@ -44,7 +44,7 @@ if (isset($_SESSION["user"]))
 
     <div class="container3">
         <div class="logo">
-            <img src="../foto's/m logo.jpg" alt="Logo">
+            <img src="../afbeeldingen/m logo.jpg" alt="Logo">
         </div>
 
         <form action="signup.php">

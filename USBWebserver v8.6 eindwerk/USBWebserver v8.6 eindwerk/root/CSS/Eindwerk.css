@@ -191,6 +191,8 @@ input{
     height: 250px;
 }
 
+
+
 p{
     color: black;
 }
@@ -218,6 +220,27 @@ h2{
     width: 100px;
     height: auto;
 }
+
+.informatie{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.titelsInfo{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.subtitelinfo{
+    color: black;
+}
+
+
+
+
 
 
 
