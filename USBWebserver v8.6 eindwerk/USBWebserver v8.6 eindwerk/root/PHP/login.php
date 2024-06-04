@@ -41,7 +41,7 @@ if (isset($_SESSION["user"]))
 <body>
     <div class="container3">
         <div class="logo">
-            <img src="../foto's/m logo.jpg" alt="Logo">
+            <img src="../afbeeldingen/m logo.jpg" alt="Logo">
         </div>
 
         <form action="checklogin.php" method="post" autocomplete="off">

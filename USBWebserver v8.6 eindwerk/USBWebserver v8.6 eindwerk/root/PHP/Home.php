@@ -44,7 +44,7 @@
 
             <div class="kolom1">
 
-                <img src="../foto's/schoenA.jpg" alt="Schoen 1" height="auto" width="auto">
+                <img src="../afbeeldingen/schoenA.jpg" alt="Schoen 1" height="auto" width="auto">
                 <h3>Nike</h3>
                 €99,99
 
@@ -52,7 +52,7 @@
 
             <div class="kolom1">
 
-                <img src="../foto's/schoenB.jpg" alt="Schoen 2">
+                <img src="../afbeeldingen/schoenB.jpg" alt="Schoen 2">
                 <h3>Under armour</h3>
                 <br>
                 €79,99
@@ -61,7 +61,7 @@
 
             <div class="kolom1">
 
-                <img src="../foto's/schoenF.jpg" alt="Schoen 3">
+                <img src="../afbeeldingen/schoenF.jpg" alt="Schoen 3">
                 <br><br>
                 <h3>Nike</h3>
                 <br><br>
@@ -72,7 +72,7 @@
 
             <div class="kolomm">
 
-                <img src="../foto's/schoenD.jpg" alt="Schoen 4">
+                <img src="../afbeeldingen/schoenD.jpg" alt="Schoen 4">
                 <h3>Nike</h3>
                 €129,99
     
