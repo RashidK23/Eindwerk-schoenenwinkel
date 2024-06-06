@@ -53,6 +53,8 @@ $result = $conn->query($sql);
     <?php
 
     include 'Connection.php';
+    include_once ("sessionCheckUser.php");
+    
     $sql = "SELECT * FROM tblschoenen";
     print "records".$sql;
     $result = $conn->query($sql);

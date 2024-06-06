@@ -1,6 +1,7 @@
 <?php
 
 include_once("Connection.php");
+include_once ("sessionCheckUser.php");
 session_start();
 
 $result=0;

@@ -1,6 +1,8 @@
 <?php
 
 include_once("Connection.php");
+include_once ("sessionCheckUser.php");
+
 $result=0;
 $user = $_POST['username'];
 $pass1 = $_POST['password1'];

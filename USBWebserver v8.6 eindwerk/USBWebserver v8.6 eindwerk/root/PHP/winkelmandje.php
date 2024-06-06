@@ -3,6 +3,8 @@
 if($user!="Login")
 {
     include 'Connection.php';
+    include_once ("sessionCheckUser.php");
+    
     if (isset($_GET["productID"]))
     {
         $product=$_GET['productID'];

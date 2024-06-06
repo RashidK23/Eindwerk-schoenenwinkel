@@ -1,5 +1,7 @@
 <?php
     include 'Connection.php';
+    include_once ("sessionCheckUser.php");
+    
     if(isset($_GET['id']))
     $id = $_GET['id'];
     print "id=" . $id;

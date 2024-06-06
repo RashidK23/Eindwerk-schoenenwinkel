@@ -5,6 +5,8 @@ session_start();
 
 if(isset($_GET['productID'])){
     include 'Connection.php';
+    include_once ("sessionCheckUser.php");
+    
     $id = $_GET['productID'];
     print "id=". $id;
     $sql = "DELETE FROM 'tblwinkelmand' WHERE productID = '$id' AND klantID='$klantID'";

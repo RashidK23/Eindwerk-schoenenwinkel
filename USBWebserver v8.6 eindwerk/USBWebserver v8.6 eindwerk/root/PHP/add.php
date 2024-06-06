@@ -3,6 +3,7 @@
 
 <?php
 include 'Connection.php';
+include_once ("sessionCheckUser.php");
 
 $naam = $_POST['naam'];
 $merk = $_POST['merk'];
