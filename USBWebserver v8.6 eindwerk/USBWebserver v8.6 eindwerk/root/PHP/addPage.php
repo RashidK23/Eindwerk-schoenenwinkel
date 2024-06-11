@@ -20,7 +20,6 @@ while($row = $result->fetch_assoc()) {
         <td><?php echo $row['kleur']; ?></td>
         <td><?php echo $row['prijs']; ?></td>
         <td><?php echo $row['omschrijving']; ?></td>
-        <td><?php echo $row['maat']; ?></td>
         <td><button id="del" onclick="Location.href='del.php?id=<?php echo $row['id']?>'">DELETE</button></td>
 
     </tr>
@@ -72,9 +71,6 @@ $conn->close();
                     <td>Afbeelding: </td>
                     <td><input type="text" name="afbeelding" id="afbeelding"></td>
                 </tr>
-
-                    <td>maat: </td>
-                    <td><input type="text" name="maat" id="maat"></td>
                 <tr>
                     <td></td>
                     <td><input type="submit" value="Toevoegen"></td>
@@ -90,7 +86,8 @@ $conn->close();
 
         <!------------------------------ FOOTER ------------------------------>
    <?php 
-     // include 'footer.php';
+
+    include 'footer.php';
     ?>
 </div>
 

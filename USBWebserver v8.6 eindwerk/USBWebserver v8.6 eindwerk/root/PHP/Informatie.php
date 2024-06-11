@@ -1,3 +1,6 @@
+<!--Rashid Khalidov--->
+<!--6IF--->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,7 +17,10 @@
 <body class="informatie">
     <header>
         <h1>MUHAJEER</h1>
+
+        
     </header>
+    
     <nav>
         <a href="Home.php">Home</a>
         <a href="Informatie.php">Informatie</a>
@@ -22,8 +28,6 @@
         <a href="Login.php">Login</a>
         <a href="winkelmandje.php"> <i class="fas fa-shopping-cart"></i></a>
     </nav>
-
-
    
 
     <section>

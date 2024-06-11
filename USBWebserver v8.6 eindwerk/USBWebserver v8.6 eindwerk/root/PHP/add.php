@@ -11,10 +11,9 @@ $kleur = $_POST['kleur'];
 $prijs = $_POST['prijs'];
 $omschrijving = $_POST['omschrijving'];
 $afbeelding = $_POST['afbeelding'];
-$maat = $_POST['maat'];
 
 
-$sql = "INSERT INTO 'tblschoenen' ('id', 'naam', 'merk', 'omschrijving', 'prijs', 'kleur', 'omschrijving', 'maat', 'afbeelding', ) VALUES (NULL, '$naam', '$merk', '$omschrijving', '$prijs', '$kleur', '$omschrijving', '$maat', '$afbeelding')";
+$sql = "INSERT INTO 'tblschoenen' ('id', 'naam', 'merk', 'prijs', 'kleur', 'omschrijving', 'afbeelding', ) VALUES (NULL, '$naam', '$merk', '$prijs', '$kleur', '$omschrijving', '$afbeelding')";
 
 
 if ($conn->query($sql) === TRUE) {
@@ -24,11 +23,6 @@ if ($conn->query($sql) === TRUE) {
     echo "Error: " . $sql . "<br>" . $conn->error;
 }
 
-
-
 $conn->close();
 
-
-
-    
 ?>

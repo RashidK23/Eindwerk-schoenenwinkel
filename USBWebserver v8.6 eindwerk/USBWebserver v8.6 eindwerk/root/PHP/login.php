@@ -1,3 +1,6 @@
+<!--Rashid Khalidov--->
+<!--6IF--->
+
 <?php
 $user="Login";
 session_start();
@@ -27,18 +30,15 @@ if (isset($_SESSION["user"]))
     <header>
         <h1>MUHAJEER</h1>
     </header>
-    <nav>
-        <a href="Home.php">Home</a>
-        <a href="Informatie.php">Informatie</a>
-        <a href="Schoenen.php">Schoenen</a>
-        <a href="Login.php">Login</a>
-        <a href="winkelmandje.php"> <i class="fas fa-shopping-cart"></i></a>
-    </nav>
-    </header>
+
 </head>
 
 
 <body>
+    <?php
+    include_once("header.php");
+    ?> 
+
     <div class="container3">
         <div class="logo">
             <img src="../afbeeldingen/m logo.jpg" alt="Logo">

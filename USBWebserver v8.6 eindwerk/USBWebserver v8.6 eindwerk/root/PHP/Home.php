@@ -1,3 +1,6 @@
+<!--Rashid Khalidov--->
+<!--6IF--->
+
 <!DOCTYPE html>
 <html lang="nl">
 <head>
@@ -20,6 +23,7 @@
         <h1>MUHAJEER</h1>
     </header>
 
+    
 
     <!--  Navigatiebar    -->
     

@@ -1,3 +1,6 @@
+<!--Rashid Khalidov--->
+<!--6IF--->
+
 <?php
 session_start();
 if ((isset($_SESSION["user"])) AND (isset($_SESSION["klantID"])))

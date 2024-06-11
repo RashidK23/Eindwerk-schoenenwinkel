@@ -1,3 +1,6 @@
+<!--Rashid Khalidov--->
+<!--6IF--->
+
 <?php
 
 include_once("Connection.php");
