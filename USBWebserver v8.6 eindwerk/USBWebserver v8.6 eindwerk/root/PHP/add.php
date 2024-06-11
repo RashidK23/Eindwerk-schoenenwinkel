@@ -3,7 +3,7 @@
 
 <?php
 include 'Connection.php';
-include_once ("sessionCheckUser.php");
+include 'sessionCheckUser.php';
 
 $naam = $_POST['naam'];
 $merk = $_POST['merk'];
@@ -13,7 +13,7 @@ $omschrijving = $_POST['omschrijving'];
 $afbeelding = $_POST['afbeelding'];
 
 
-$sql = "INSERT INTO 'tblschoenen' ('id', 'naam', 'merk', 'prijs', 'kleur', 'omschrijving', 'afbeelding', ) VALUES (NULL, '$naam', '$merk', '$prijs', '$kleur', '$omschrijving', '$afbeelding')";
+$sql = "INSERT INTO 'tblschoenen' ('id', 'naam', 'merk', 'prijs', 'kleur', 'omschrijving', 'afbeelding') VALUES (NULL, '$naam', '$merk', '$prijs', '$kleur', '$omschrijving', '$afbeelding')";
 
 
 if ($conn->query($sql) === TRUE) {

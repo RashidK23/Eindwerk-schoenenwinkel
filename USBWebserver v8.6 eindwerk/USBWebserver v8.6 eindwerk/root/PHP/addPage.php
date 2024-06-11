@@ -5,7 +5,7 @@
        <?php
 
 include 'Connection.php';
-include_once ("sessionCheckUser.php");
+include 'sessionCheckUser.php';
 
 $sql = "SELECT * FROM 'tblschoenen'";
 $result = $conn->query($sql);

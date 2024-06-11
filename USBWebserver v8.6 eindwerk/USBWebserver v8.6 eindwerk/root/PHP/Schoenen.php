@@ -5,6 +5,8 @@
 <?php
 
 include 'Connection.php';
+include 'sessionCheckUser.php';
+
 $sql = "SELECT * FROM 'tblschoenen'";
 $result = $conn->query($sql);
 
