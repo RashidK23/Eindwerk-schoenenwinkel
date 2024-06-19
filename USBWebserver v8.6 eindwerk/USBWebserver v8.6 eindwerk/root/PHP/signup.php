@@ -27,14 +27,17 @@ else
         $sql = "INSERT INTO user (gebruikersnaam, paswoord) VALUES ('$user', '$pass1')";
 
         if ($conn->query($sql) === TRUE) {
-            $melding="Account is toegevoegd";
-            session_start();
+            $melding="Account is toegevoegd. Je kan nu aanmelden";
+            header("Location: login.php?melding=$melding");
+            
+            // session_start();
+            $_SESSION["user"]=$user;
             $_SESSION["user"]=$user;
         }
     else{
         $melding= "Error: " . $sql . "<br>" . $conn->error;
 
-    }
+        }
      }
 
      else
@@ -43,7 +46,7 @@ else
 
      }
 
-     header("Location: signupForm.php?melding=$melding");
+    //  header("Location: signupForm.php?melding=$melding");
      $conn->close();
 }
 

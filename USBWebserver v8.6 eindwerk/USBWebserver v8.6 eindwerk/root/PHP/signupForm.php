@@ -54,7 +54,7 @@ if (isset($_SESSION["user"]))
             <img src="../afbeeldingen/m logo.jpg" alt="Logo">
         </div>
 
-        <form action="signup.php">
+        <form action="signup.php" method="post">
 
             <label for="username">Gebruikersnaam:</label>
             <input type="text" id="username" name="username" required>

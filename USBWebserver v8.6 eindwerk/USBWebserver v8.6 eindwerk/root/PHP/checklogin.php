@@ -3,7 +3,7 @@
 include 'Connection.php';
 include 'sessionCheckUser.php';
 
-session_start();
+// session_start();
 
 $result=0;
 $user = htmlspecialchars($_POST['username']);
@@ -13,8 +13,13 @@ $result = $conn->query("SELECT * FROM user WHERE gebruikersnaam='$user' AND pasw
 
 if($result->num_rows) {
     print "Welkom";
-    session_start();
+    // session_start();
+    $row = $result->fetch_assoc();
     $_SESSION["user"]=$user;
+    $_SESSION["klantID"]=$row["ID"];
+    print "user " . $_SESSION["user"];
+    print "klantid " . $_SESSION["klantID"];
+
     header("Location: Home.php?melding=Je bent aangemeld");
 
 }
