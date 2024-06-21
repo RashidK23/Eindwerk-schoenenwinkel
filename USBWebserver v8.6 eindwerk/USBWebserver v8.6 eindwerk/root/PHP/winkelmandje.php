@@ -69,7 +69,7 @@ if($user!="Login")
 
     <h4>Totale prijs: <?php print $totaal;?> euro</h4>
     <?php if ($totaal>0){?>
-        <button onclick="Location.href='Bestelling.php'">Koop</button>
+        <button onclick="Location.href='bestelling.php'">Koop</button>
         <?php
     }
 }

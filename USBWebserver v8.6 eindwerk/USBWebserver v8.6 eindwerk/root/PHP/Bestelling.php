@@ -1,13 +1,14 @@
 <?php
 include 'Connection.php';
 include 'sessionCheckUser.php';
+
 if(isset($klantID))
 {
     $sql = "SELECT * FROM tblwinkelmand WHERE klantID = '$klantID'";
     $result = $conn->query($sql);
     while($row = $result->fetch_assoc())
     {
-        $productid=$row['productID'];
+        $productid=$row['productid'];
         $aantal=$row['aantal'];
         date_default_timezone_get("Europe/Brussels");
         $datum=date("Y-m-d");
